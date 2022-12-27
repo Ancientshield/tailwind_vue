@@ -26,7 +26,32 @@
     >
       兔兔方塊
     </div>
+    <div id="衛生所" class="max-w-19rem bg-floor bg-red-200 m-20 px-5 py-8">
+      <span class="兔 沒口罩"></span>
+      <span class="ml-20 space-x-6 space-y-6">
+        <span class="兔 有口罩"></span>
+        <span class="兔 有口罩"></span>
+        <span class="兔 有口罩"></span>
+        <span class="兔 有口罩"></span>
+      </span>
+    </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.兔 {
+  @apply w-10 h-5 inline-block relative;
+}
+.兔::after {
+  content: '';
+  @apply w-full h-36 block bg-contain bg-bottom bg-no-repeat absolute bottom-0;
+}
+
+.有口罩::after {
+  background-image: url(https://i.imgur.com/qOW9ojH.png);
+}
+
+.沒口罩::after {
+  background-image: url(https://i.imgur.com/48r5sL3.png);
+}
+</style>
