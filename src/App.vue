@@ -21,7 +21,9 @@
         <b><i>信兔兔，無 Bug</i></b>
       </button>
     </div>
-    <div class="bg-blue-500 text-white text-white w-40 h-40 text-center">
+    <div
+      class="bg-blue-500 text-white text-white w-40 h-40 text-center border-8 border-blue-300 rounded-3xl bg-gradient-to-tl from-yellow-300 via-red-500 to-indigo-500"
+    >
       兔兔方塊
     </div>
   </div>
