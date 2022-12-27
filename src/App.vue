@@ -21,6 +21,9 @@
         <b><i>信兔兔，無 Bug</i></b>
       </button>
     </div>
+    <div class="bg-blue-500 text-white text-white w-40 h-40 text-center">
+      兔兔方塊
+    </div>
   </div>
 </template>
 
