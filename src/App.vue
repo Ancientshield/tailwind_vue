@@ -26,14 +26,19 @@
     >
       兔兔方塊
     </div>
-    <div id="衛生所" class="max-w-19rem bg-floor bg-red-200 m-20 px-5 py-8">
-      <span class="兔 沒口罩"></span>
-      <span class="ml-20 space-x-6 space-y-6">
-        <span class="兔 有口罩"></span>
-        <span class="兔 有口罩"></span>
-        <span class="兔 有口罩"></span>
-        <span class="兔 有口罩"></span>
-      </span>
+    <div
+      id="衛生所"
+      class="max-w-19rem bg-floor bg-red-200 m-20 px-5 py-8 grid gap-6 grid grid-cols-4"
+    >
+      <span class="兔 沒口罩 flex-shrink-0 col-start-2 col-span-2"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
+      <span class="兔 有口罩 flex-shrink-0"></span>
     </div>
   </div>
 </template>
